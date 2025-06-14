@@ -57,7 +57,7 @@ class Game:
             for j in range(GRID_COLS):
                 self.available_grids.append((i, j))
 
-        self.buying_button = CircleButton((WIDTH / 2, 380), 35, "Buy")
+        self.buying_button = CircleButton((WIDTH / 2, 365), 35, "Buy")
 
         # bullet initialization
         self.bullet_on_screen = []
